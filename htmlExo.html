@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>exo2</title>
+	<script type="text/javascript">
+		function f(){
+		
+			var x=getElementsByTagId('01').value;
+			var y=getElementsByTagId('02').value;
+			var s=Number(x)+Number(y);
+
+			getElementsByTagId("03").value=s;
+
+			alert(s);
+		}
+	</script>
+	
+</head>
+<body>
+<form>
+	<br>
+	<label>nb numero 1</label><input type="text" name="" id="01"> 
+	<br><br>
+	<label>nb numero 2</label><input type="text" name="" id="02">
+	<br><br>
+	<button onclick="f()"> resulta de la somme </button><br><br>
+	 <label>la somme et : </label><input type="text" name="" id="03">
+</form>
+</body>
+</html>
