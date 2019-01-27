@@ -5,12 +5,12 @@
 	<script type="text/javascript">
 		function f(){
 		
-			var x=getElementsByTagId('01').value;
-			var y=getElementsByTagId('02').value;
+			var x=document.getElementById("01").value;
+			var y=document.getElementById("02").value;
 			var s=Number(x)+Number(y);
 
-			getElementsByTagId("03").value=s;
-
+			document.getElementById("03").value=s;
+			
 			alert(s);
 		}
 	</script>
